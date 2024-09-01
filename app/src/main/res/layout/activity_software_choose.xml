@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sp_bg"
+    tools:context=".softwareChooseActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+        
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="60dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Choose what\nto learn"
+            android:textColor="#fff"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="500dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="20dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/radobe_xd" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/i1"
+                android:text="Adobe XD"
+                android:textColor="#305f72"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t1"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/i1"
+                android:text="32 Courses"
+                android:textColor="#f18c8e"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/active_icon" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="380dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="20dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/i2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/rsketch_icon" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/i2"
+                android:text="Sketch"
+                android:textColor="#305f72"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t2"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/i2"
+                android:text="32 Courses"
+                android:textColor="#f18c8e"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/active_icon" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="260dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="20dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/i3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/rafter_effect" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/i3"
+                android:text="After Effects"
+                android:textColor="#305f72"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t3"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/i3"
+                android:text="32 Courses"
+                android:textColor="#f18c8e"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/inactive_icon" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="140dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="20dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/i4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/rfigma_icon" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/i4"
+                android:text="Figma"
+                android:textColor="#305f72"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t4"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/i4"
+                android:text="32 Courses"
+                android:textColor="#f18c8e"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/active_icon" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="830dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/button_bg"
+            android:gravity="center_vertical">
+            
+        <TextView
+            android:id="@+id/pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue with 3"
+            android:textColor="#f18c8e"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"/>
+
+            <ImageView
+                android:id="@+id/pay2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/pink_button_arrow"
+                android:layout_marginLeft="80dp"/>
+
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

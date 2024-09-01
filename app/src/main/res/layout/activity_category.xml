@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/category_bg"
+    tools:context=".categoryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        tools:layout_editor_absoluteX="-29dp"
+        tools:layout_editor_absoluteY="-248dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="125dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="UI/UX\n Courses"
+            android:textColor="#fff"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c1"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="500dp"
+            app:cardBackgroundColor="#ffe9f9"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp">
+
+
+                <ImageView
+                    android:id="@+id/i1"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/adobe_xd" />
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@+id/i1"
+                    android:letterSpacing="0.03"
+                    android:text="Adobe XD\nPrototyping"
+                    android:textColor="#305f72"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/t1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/i1"
+                    android:text="10 hours, 20 lessons"
+                    android:textColor="#f18c8e"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/p1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/t1"
+                    android:text="25%"
+                    android:textColor="#305f72"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/p1"
+                    android:src="@drawable/play_button" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c2"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="380dp"
+            app:cardBackgroundColor="#fff5e5"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp">
+
+
+                <ImageView
+                    android:id="@+id/i2"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/sketck_icon" />
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@+id/i2"
+                    android:letterSpacing="0.03"
+                    android:text="Sketch\nPrototyping"
+                    android:textColor="#305f72"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/t2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/i2"
+                    android:text="10 hours, 20 lessons"
+                    android:textColor="#f18c8e"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/p2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/t2"
+                    android:text="25%"
+                    android:textColor="#305f72"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/p2"
+                    android:src="@drawable/play_button" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c3"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="260dp"
+            app:cardBackgroundColor="#fbf5ff"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp">
+
+
+                <ImageView
+                    android:id="@+id/i3"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/after_effect_icon" />
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@+id/i3"
+                    android:letterSpacing="0.03"
+                    android:text="After Effects\nUI Effects"
+                    android:textColor="#305f72"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/t3"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/i3"
+                    android:text="10 hours, 20 lessons"
+                    android:textColor="#f18c8e"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/p3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/t3"
+                    android:text="25%"
+                    android:textColor="#305f72"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/p3"
+                    android:src="@drawable/play_button" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c4"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="140dp"
+            app:cardBackgroundColor="#fff1ef"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp">
+
+
+                <ImageView
+                    android:id="@+id/i4"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/figma_icon" />
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@+id/i4"
+                    android:letterSpacing="0.03"
+                    android:text="Figma\nEssentials"
+                    android:textColor="#305f72"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/t4"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/i4"
+                    android:text="10 hours, 20 lessons"
+                    android:textColor="#f18c8e"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/p4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/t4"
+                    android:text="25%"
+                    android:textColor="#305f72"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/p4"
+                    android:src="@drawable/play_button" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c5"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="#eaf9fe"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp">
+
+
+                <ImageView
+                    android:id="@+id/i5"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/photoshop_icon" />
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@+id/i5"
+                    android:letterSpacing="0.03"
+                    android:text="Photoshop\nRetouching"
+                    android:textColor="#305f72"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/t5"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/i5"
+                    android:text="10 hours, 20 lessons"
+                    android:textColor="#f18c8e"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/p5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/t5"
+                    android:text="25%"
+                    android:textColor="#305f72"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/p5"
+                    android:src="@drawable/play_button" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

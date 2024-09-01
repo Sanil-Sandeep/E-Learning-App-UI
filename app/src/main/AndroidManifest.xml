@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudyWave"
+        tools:targetApi="31">
+        <activity
+            android:name=".afterEffectsCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".photoshopCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sketchCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adobeXDIntroductionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".courseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".paymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".softwareChooseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".categoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserOnbordScreenActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".UserOnbordScreenActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".UserOnbordScreenActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

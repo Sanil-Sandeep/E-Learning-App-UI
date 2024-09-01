@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StudyWave</string>
+    <string name="login">Log In</string>
+    <string name="register"> Register </string>
+    <string name="logout"> LogOut </string>
+    <string name="next"> Next </string>
+    <string name="start"> GetStarted </string>
+</resources>
